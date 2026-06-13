@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Your Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Section -->
+        <div class="left-section">
+            <div class="brand-content">
+                <div class="logo">
+                    <svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="45" fill="#FF6B35"/>
+                        <text x="50" y="65" font-size="60" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial">S</text>
+                    </svg>
+                </div>
+                <h1 class="brand-name">Your Platform</h1>
+                <p class="brand-tagline">The leading online marketplace<br>in your region</p>
+            </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="signup-card">
+                <h2 class="signup-title">Sign Up</h2>
+                
+                <form class="signup-form" id="signupForm">
+                    <div class="form-group">
+                        <input 
+                            type="tel" 
+                            class="form-input" 
+                            placeholder="Phone Number" 
+                            id="phoneNumber"
+                            required
+                        >
+                    </div>
+
+                    <button type="submit" class="btn-signup">NEXT</button>
+
+                    <div class="divider">
+                        <span>or</span>
+                    </div>
+
+                    <div class="social-login">
+                        <button type="button" class="btn-social btn-facebook">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.477 0 0 4.477 0 10c0 4.991 3.657 9.128 8.438 9.879V12.89h-2.54V10h2.54V7.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V10h2.773l-.443 2.89h-2.33v6.989C16.343 19.129 20 14.99 20 10c0-5.523-4.477-10-10-10z"/>
+                            </svg>
+                            Facebook
+                        </button>
+                        <button type="button" class="btn-social btn-google">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M19.6 10.23c0-.82-.066-1.42-.165-2.05H10v3.72h5.5c-.29 1.48-.919 2.78-1.96 3.56v2.77h3.19c1.895-1.465 2.87-3.617 2.87-6.0z"/>
+                                <path d="M10 20c2.43 0 4.735-.8 6.313-2.176l-3.19-2.77c-.811.569-1.855.893-3.123.893-2.394 0-4.424-1.567-5.149-3.643H1.612v2.853C3.179 18.988 6.482 20 10 20z"/>
+                                <path d="M4.851 12.304c-.18-.569-.28-1.173-.28-1.804 0-.631.1-1.235.28-1.804V3.645H1.612A9.865 9.865 0 000 10.5c0 1.656.389 3.219 1.074 4.604l3.15-2.45z"/>
+                                <path d="M10 3.88c1.35 0 2.551.464 3.5 1.372l2.606-2.605C14.712.903 12.432 0 10 0 6.482 0 3.179 1.012 1.612 2.645l3.24 2.514c.725-2.076 2.755-3.68 5.148-3.68z"/>
+                            </svg>
+                            Google
+                        </button>
+                    </div>
+
+                    <p class="form-footer">
+                        By signing up, you agree to our 
+                        <a href="#" class="link">Terms of Service</a> & 
+                        <a href="#" class="link">Privacy Policy</a>
+                    </p>
+
+                    <p class="login-link">
+                        Already have an account? <a href="#" class="link">Log in</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
